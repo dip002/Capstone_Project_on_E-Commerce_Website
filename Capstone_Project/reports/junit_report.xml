@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="26.344" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="SignUp and Login Functionality check." name="To make User successfuly Register into the given Website. - #1.1" time="24.342">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)&quot; because &quot;test&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because "test" is null
+	at com.ecommerce.utils.Reports.generateReport(Reports.java:25)
+	at com.ecommerce.pages.SignupPage.VerifyHome(SignupPage.java:79)
+	at com.ecommerce.stepDefination.SignupStepDef.i_verify_that_home_page_is_visible_successfully(SignupStepDef.java:33)
+	at ✽.I verify that HomePage is Visible successfully.(file:///C:/Users/Administrator/eclipse-workspace/Capstone_Project/src/test/resources/Features/Signup.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I Navigate to the Home Page...........................................passed
+And I verify that HomePage is Visible successfully..........................failed
+And I click on Signup/Login button..........................................skipped
+And I verify New User Sign up! is Visible...................................skipped
+When I enter "Dipayan" and "karmakardipayank@gmail.com".....................skipped
+And I clicked Signup button.................................................skipped
+And I verify that ENTER ACCOUNT INFORMATION is visible or not...............skipped
+When I enter Title, Name, email,"Dipayan@123",DateOfBirth...................skipped
+And I select checkBox Signup for our new settler!...........................skipped
+And I select again checkBox Receive special offers for our partners!........skipped
+When I enter "Dipayan", "Karmakar", "Wipro", "1234 Elm Street", "Springfield", "Vegas", "Monaco", "700008", "9008819656"..skipped
+And I click on Create Account...............................................skipped
+And I verify that ACCOUNT CREATED! is visible...............................skipped
+And I clicked on Continue button............................................skipped
+And I verify  that Logged in as username! is visible........................skipped
+Then I Delete the Account...................................................skipped
+Then I verify Account Deleted and I click on continue.......................skipped
+]]></system-out>
+</testcase>
+</testsuite>
